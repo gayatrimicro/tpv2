@@ -1,0 +1,2921 @@
+<!DOCTYPE html>
+<html lang="en" class="wf-lato-n3-active wf-lato-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" async="" src="assets/js/analytics.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel='stylesheet' type='text/css' href='https://d33wubrfki0l68.cloudfront.net/bundles/2835d381ea542b7b6f33b7ad013e66d159afec9a.css'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145112548-1');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&subset=all">
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<title>Injury Live</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<meta content="" name="description">
+<meta content="" name="author">
+
+ <!-- Owl Stylesheets -->
+<link rel="stylesheet" href="assets/slider/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/slider/owl.theme.default.min.css">
+<script src="assets/slider/sweetalert.min.js"></script>
+<script src="assets/slider/jquery.validate.min.js"></script>
+
+
+
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="assets/css/socicon.css" rel="stylesheet" type="text/css">
+<link href="assets/css/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap-social.css" rel="stylesheet" type="text/css">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/animate.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
+<link href="assets/css/default.css" rel="stylesheet" type="text/css">
+<link href="assets/css/components.css" id="style_components" rel="stylesheet" type="text/css">
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+<link href="assets/css/css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/lato:n3,n4:default.js" type="text/javascript">\x3C/script>');
+</script>
+<style type="text/css">
+  /*prabhat pandit stylesheets */
+.fancybox-margin {
+	margin-right: 0px;
+}
+.slider1{
+  width: 100%;
+  position: relative;;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+}
+.full{
+  width:100% !important;
+  object-fit: cover;
+  position: relative;
+  max-width: 100%;
+  margin:0;
+  display: block;
+}
+
+body{
+  overflow-x: hidden;
+}
+#whyus{
+  margin-top: 108px !important;
+}
+.width-fitfy{
+    width: 50%;
+  }
+  .c-font-color {
+    color:#455d58 !important;
+}
+.custom-btn{
+    background: #455d58 !important;
+    color: #fff !important;
+}
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 54%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header-para{
+    position: relative;
+    font-size: 18px !important;
+    font-family: inherit;
+    display: block;
+    font-weight: 400;
+    text-align: left;
+    color:#455d58 !important;
+    
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+  }
+.c-bg-white{
+  background: #faf7f2 !important;
+}
+
+
+.owl-carousel .owl-controls {
+    margin-top: 0px !important;
+
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.owl-nav{
+  display: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    line-height:15px;
+    margin: 5px 7px;
+    background: yellow;
+    border: thin solid black;
+    display: block;
+    padding:10px !important;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius:100%;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+    background-color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #869791;
+    background-color:bumblebee;
+}
+.text-big{text-transform: uppercase;}
+
+.c-font-50 {
+    font-size: 50px;
+}
+.header-content {
+    padding: 22% 6%;
+    z-index: 9;
+    position: fixed;
+    top: -120px;
+    font-family: 'Montserrat', sans-serif;
+}
+.child-dropdown{
+    display: grid;
+    /*display: none;*/
+    background: #fff;
+    z-index: 999 !important;
+    position: absolute;
+    box-shadow: 2px 3px 20px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    width:250px;
+    width: 300px;
+    height:auto;
+    top: 150px;
+    padding: 0px;
+    list-style-type: none;
+    margin:0;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    font-family:'Montserrat', sans-serif !important;
+    border:thin solid whitesmoke;
+    transition: all 0.2s ease;
+}
+.shownow{
+    top: 100px;
+    visibility:visible;
+    overflow:unset;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+.child-dropdown:after{
+  position: absolute;
+  display: block;
+  top: -29px;
+  left: 20px;
+  content: "";
+  border-bottom: 15px solid #e6e6e6;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+
+}
+.links-dropdown{
+    position: relative;
+    display: block;
+    color: #000;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family:'Montserrat', sans-serif !important;
+    
+}
+.child-li{
+  position: relative;
+  display: block;
+  margin:0;
+  list-style-type: none;
+}
+
+.links-dropdown:hover{
+  background-color:#f6f9fc !important;
+  color:#000 !important;
+  transition: all 0.4s ease;
+}
+.show:hover .child-dropdown{
+  display: grid;
+  transition: all 0.4s ease;
+}
+
+.most-inner{
+    position: absolute;
+    /*display: grid;*/
+    display: none;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 4px 3px 20px rgba(0,0,0,0.3);
+    width: 200px;
+    height:fit-content;
+    min-height: 1px;
+    border-radius: 5px;
+    right: -198px;
+    z-index: 99;
+    padding: 0px;
+    margin: 0;
+    top:4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.inner-li{
+    padding: 0px;
+    margin: 0;
+    line-height: unset;
+    display: block;
+    list-style-type: none;
+    position: relative;
+}
+.inner-links{
+    padding: 16px;
+    display: block;
+    position: relative;
+
+}
+.inner-links {
+    padding: 10px;
+    display: block;
+    position: relative;
+    display: block;
+    width: 207px;
+    line-height: initial;
+}
+.show-li:hover .most-inner{
+  display: grid;
+  transition: all 0.4s ease;
+}
+
+.c-content-title-3 {
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.yop{
+
+  margin-top:50px !important;
+}
+.mobile-dropdown{
+  background: #38bcc8;
+}
+.mobile-dropdown-two{
+  background: #38bcc8;
+}
+.mobile-dropdown-three{
+  background: #38bcc8;
+}
+.c-onepage-link{
+    margin-right: 25px;
+    margin-left: 10px;
+    position: relative;
+}
+.c-theme-nav li:focus > a:not(.btn), .c-theme-nav li:active > a:not(.btn), .c-theme-nav li:hover > a:not(.btn) {
+    /*color: #fff !important;*/
+}
+.links-dropdown:hover .tele{
+  color:#07c597;
+}
+.mobile-visible{
+  display: block !important;
+  padding: 0px;
+  transition: all 0.4s ease;
+}
+.mobile-links{
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 400;
+    border-bottom: 0.6px solid whitesmoke;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.btn-new{
+    border-color: #07c597 !important;
+    color: #fff !important;
+    background: #07c597 !important;
+}
+
+.btn-new:hover{
+  background-color:#07c597 !important;
+  color: #fff !important;
+}
+
+.owl-theme:not(.owl-single):not(.owl-bordered) .owl-wrapper .owl-item, .owl-theme:not(.owl-single):not(.owl-bordered) .owl-stage-outer .owl-item {
+    /* padding: 0 30px; */
+    padding:0px !important;
+}
+
+.c-layout-go2top {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 37px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.c-mega-menu-onepage-dots {
+    width: 12px;
+    position: fixed;
+    list-style: none;
+    top: 50%;
+    right:16px;
+}
+.item{
+    width: 100%;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn-white{
+    border-color: #FFD81B;
+    color: #000;
+    background: #fff !important;
+    padding: 12px 70px !important;
+}
+.center-services-img {
+    width: 30rem !important;
+    margin-top: 8rem;
+}
+
+.btn, button, [role=button], [type=submit] {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    top: 108px;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    height: 100vh;
+    /*background: url(../../assets/images/home_background-couple.jpg);*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 22px 12px;
+    background-color: #fff;
+    border: 1px solid #c2cad8 !important;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+textarea.form-control {
+    height: auto;
+    min-height: 120px;
+}
+.Callback-button{
+    background: #ffd81c;
+    position: relative;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.Callback-button:hover{
+  color: #ffffff;
+}
+
+.swal2-backdrop-show{
+    overflow-y: auto;
+    z-index: 99999999999999999999 !important;
+}
+.swal2-container {
+    display: -webkit-box;
+    display: flex;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    right: 0;
+    z-index: 999999999999 !important;
+    bottom: 0;
+    left: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: .625em;
+    overflow-x: hidden;
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s;
+    -webkit-overflow-scrolling: touch;
+}
+
+.width-center{
+  margin:0 auto;
+  width:65%;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction:column;
+  flex-shrink: initial;
+  flex-wrap: nowrap;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.para {
+    font-size: 17px;
+    color: #4E5464;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    line-height: 28px;
+}
+.col-md{
+  position: relative;
+  display: block;
+  margin:0 auto;
+  margin-right: 40px !important;
+  display: grid;
+  flex-shrink: initial;
+  flex-direction: column;
+  /*margin-left: 203px;*/
+  justify-content: center;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-black{
+    border-color: #FFD81B;
+    color: #000;
+    color: #fff !important;
+    background: #111938 !important;
+    padding: 12px 70px !important;
+
+}
+.para-bold{
+  font-weight:900;
+  font-size: 23px;
+}
+.yl{
+  color: #ffd81c;
+  font-size: 17px;
+}
+.btn-yellow{
+  background-color: #ffd81c !important;
+}
+.sub-heading {
+    line-height: 19px;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    font-family: lato, sans-serif;
+    min-height: 24px;
+    font-weight: 300;
+    margin-top: 21px;
+    color: #4E5464;
+}
+.modal-body{
+
+  padding: 40px 70px !important;
+}
+.modal-header{
+  padding: 15px 50px !important;
+}
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 22px 12px;
+    background-color: #fff;
+    border: 1px solid #798aa7 !important;
+    border-radius: 4px;
+  }
+  .form-control{
+      transition: all 0.3s ease;
+  }
+  .form-control:focus{
+    box-shadow: 0px 0px 3px 3px #aeeaea !important;
+    border:thin solid dodgerblue;
+    z-index: 4;
+    transition: all 0.3s ease;
+  }
+  .bottom-btn{
+    margin-top: 15px !important;
+  }
+  .btn, button, [role=button], [type=submit] {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #2a2d2d;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.modal-header{
+  background: #282d2d;
+}
+.modal-content{
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header-white{
+    color: #fff !important;
+    font-size: 16px;
+    margin: 8px 0;
+    font-weight: 400;
+}
+.close {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color:yellow;
+    font-size: 28px;
+    outline: none !important;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    -webkit-transition: back 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+.modal-header > .close {
+    margin-top: 9px;
+}
+.to{
+  font-size: 52px;
+}
+.image-bottom{
+ 
+    top: 73px;
+    z-index: 1000;
+    position: relative;
+    display: block;
+
+}
+.img-bottom{
+    position: relative;
+    top: 0px;
+}
+.image-below{
+    position: relative;
+    top: 43px;
+}
+
+/*this code added on 22/02/2020 by prabhat pandit*/
+.c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav {
+    line-height: 0px;
+    background: none;
+    position: static;
+    margin: 50px 0px; 
+    padding: 0;
+}
+
+.c-desktop-logo{
+  width: 80px;
+  object-fit: cover;
+  position: relative;
+  display: block;
+}
+.c-layout-header .c-brand {
+    margin: 50px 0 37px 0;
+}
+.c-font-50 {
+    font-size: 50px;
+}
+.header-content{
+    display: flex;
+    justify-content:end;
+    align-items:end;
+    align-content:end;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+.new-container{
+  
+  width: 100% !important;
+}
+
+
+.c-navbar{
+ 
+  background: #fff !important;
+  color: #000;
+}
+.c-link:hover{
+  color: #000 !important;
+}
+
+
+@media (min-width: 1180px){
+.c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav {
+    line-height: 0px;
+    background: none;
+    position: static;
+    /* margin: 50px 0px; */
+    margin: 0px !important;
+    padding: 0;
+}
+}
+
+@media (min-width: 992px){
+.c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav > li {
+    padding: 0;
+    margin: 0px 8px;
+    margin:0px !important;
+    float: left;
+    position: static;
+}
+.mobile-dropdown{
+  display: none;
+}
+.mobile-dropdown-two{
+  display: none;
+}
+.mobile-dropdown-three{
+  display: none;
+}
+.tis{
+  height:60px !important;
+}
+.mobile-dropdown{
+  display: none !important;
+}
+.mobile-dropdown-two{
+  display: none !important;
+}
+.mobile-dropdown-three{
+  display: none !important;
+}
+.c-layout-header .c-brand {
+    margin: 15px 0 11px 0 !important;
+}
+.c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon, .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
+    
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+}
+
+@media only screen and (max-width:1100px){
+.header-content {
+    padding: 22% 6%;
+    z-index: 9;
+    position: fixed;
+    top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid {
+    padding: 0 0px !important;
+}
+}
+
+@media (max-width: 991px){
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    background: #2e333a;
+    padding: 16px 16px 16px 16px;
+}
+.c-layout-header .c-brand > .c-hor-nav-toggler > .c-line {
+    width: 25px;
+    display: block;
+    height: 2px;
+    padding: 0px;
+    margin: 3px 0;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler > .c-line {
+    background: #fff;
+}
+.c-layout-header .c-navbar .c-mega-menu {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding: 5px 10px;
+    display: none;
+    width:100%;
+    margin:0 auto !important;
+    float: none !important;
+    overflow-x: hidden;
+    transition: all 0.2s;
+}
+.c-layout-header .c-brand {
+    float: none !important;
+    display: block;
+    margin: 9px 15px 21px 15px;
+}
+}
+
+@media (max-width: 767px){
+.owl-theme:not(.owl-single):not(.owl-bordered) {
+    margin-left: -20px;
+    width: calc(100% + 20px);
+}
+}
+
+@media only screen and (max-width:768px){
+
+  .child-dropdown{
+  display: none !important;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.modal-content{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-body {
+    padding: 40px 30px !important;
+}
+form{
+ text-align: center;
+}
+.modal-header .close {
+    margin-top: 6px;
+}
+.modal-header {
+    padding: 13px 13px !important;
+}
+.separate_links{
+    position: relative;
+    top: 10px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    border: thin solid #d2ca32;
+}
+}
+
+
+@media only screen and (max-width:600px){
+
+  .header-content {
+    /*padding: 22% 6%;*/
+    padding: 56% 15%;
+    z-index: 9;
+    position: fixed;
+    top:0 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.c-font-50 {
+    font-size: 30px;
+}
+.child-dropdown{
+  display: none !important;
+}
+.mobile-dropdown{
+  display: none;
+}
+.mobile-dropdown-two{
+  display: none;
+}
+.mobile-dropdown-three{
+  display: none;
+}
+.navbar-nav {
+    /*margin: 7.5px -15px;*/
+    margin: 0 auto;
+}
+.owl-theme:not(.owl-single):not(.owl-bordered) .owl-wrapper .owl-item, .owl-theme:not(.owl-single):not(.owl-bordered) .owl-stage-outer .owl-item {
+    padding: 0 0px;
+    padding: 0px !important;
+}
+.sm-text-center{
+text-align: center;
+}
+.c-content-title-3 > h3.c-font-uppercase {
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+    line-height: 38px;
+}
+.width-center {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-shrink: initial;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler > .c-line {
+    background: #1e2158;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    background: #ffd81c;
+    padding: 16px 16px 16px 16px;
+}
+.tis{
+  height:30px !important;
+}
+.c-root-unserline {
+    border-radius: 5px;
+    background-color: #FFD81B;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 30%;
+    transform: translate(0%, -50%);
+    position: relative;
+}
+.c-root-unserline-wh {
+    border-radius: 5px;
+    background-color: #FFF;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    transform: translate(0%, -50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 30%;
+}
+.modal-content{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-body {
+    padding: 40px 30px !important;
+}
+form{
+ text-align: center;
+}
+.modal-header .close {
+    margin-top: 6px;
+}
+.image-bottom{
+ 
+    top: 0px;
+    z-index: 1000;
+    position: relative;
+    display: block;
+
+}
+.modal-header {
+    padding: 13px 13px !important;
+}
+.separate_links{
+    position: relative;
+    top: 10px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    border: thin solid #d2ca32;
+}
+.banner{
+  z-index: 0;
+}
+}
+
+
+@media (max-width: 520px){
+.c-layout-header-fullscreen.c-layout-header-mobile-fixed.c-layout-header-static .c-layout-header, .c-layout-header-fixed.c-layout-header-mobile-fixed .c-layout-header {
+    /*top: 36px;*/
+    top:0px;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    transition: none;
+}
+.banner {
+    position: relative;
+    top: 109px;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    height: 100vh;
+    /* background: url(../../assets/images/home_background-couple.jpg); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 90%;
+}
+.banner{
+  z-index: 0;
+}
+.image-below{
+    position: relative;
+    top:0px;
+}
+}
+
+@media only screen and (max-width:480px){
+
+  .header-content {
+    /*padding: 22% 6%;*/
+    padding: 56% 15%;
+    z-index: 9;
+    position: fixed;
+    top:0 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.c-font-50 {
+    font-size: 30px;
+}
+.child-dropdown{
+  display: none !important;
+}
+.mobile-dropdown{
+  display: none;
+}
+.mobile-dropdown-two{
+  display: none;
+}
+.mobile-dropdown-three{
+  display: none;
+}
+.navbar-nav {
+    /*margin: 7.5px -15px;*/
+    margin: 0 auto;
+}
+.owl-theme:not(.owl-single):not(.owl-bordered) .owl-wrapper .owl-item, .owl-theme:not(.owl-single):not(.owl-bordered) .owl-stage-outer .owl-item {
+    padding: 0 0px;
+    padding: 0px !important;
+}
+.c-content-title-3 > h3.c-font-uppercase {
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+    line-height: 38px;
+}
+.c-content-title-1 > h3.c-font-uppercase {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.width-center {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-shrink: initial;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler > .c-line {
+    background: #1e2158;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    background: #ffd81c;
+    padding: 16px 16px 16px 16px;
+}
+.pd{
+  margin-top: 0px !important;
+}
+.to{
+  font-size: 35px;
+}
+.tis{
+  height:30px !important;
+}
+.c-root-unserline {
+    border-radius: 5px;
+    background-color: #FFD81B;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 30%;
+    transform: translate(0%, -50%);
+    position: relative;
+}
+.c-root-unserline-wh {
+    border-radius: 5px;
+    background-color: #FFF;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    transform: translate(0%, -50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 30%;
+}
+.modal-content{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-body {
+    padding: 40px 30px !important;
+}
+form{
+ text-align: center;
+}
+.modal-header .close {
+    margin-top: 6px;
+}
+.image-bottom{
+ 
+    top: 0px;
+    z-index: 1000;
+    position: relative;
+    display: block;
+
+}
+.modal-header {
+    padding: 13px 13px !important;
+}
+.separate_links{
+    position: relative;
+    top: 10px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    border: thin solid #d2ca32;
+}
+.banner{
+  z-index: 0;
+}
+.image-below{
+    position: relative;
+    top:0px;
+}
+}
+
+@media (max-width: 420px){
+.c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
+    padding: 25px 20px 10px 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.c-content-title-3 > h3.c-font-uppercase {
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+    line-height: 38px;
+    text-align: center;
+}
+.c-content-title-1 > h3.c-font-uppercase {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.width-center {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-shrink: initial;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler > .c-line {
+    background: #1e2158;
+}
+.c-layout-header.c-layout-header-dark-mobile .c-brand > .c-hor-nav-toggler {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    background: #ffd81c;
+    padding: 16px 16px 16px 16px;
+}
+.pd{
+  margin-top: 0px !important;
+}
+.to{
+  font-size: 35px;
+}
+.tis{
+  height:30px;
+}
+.c-root-unserline {
+    border-radius: 5px;
+    background-color: #FFD81B;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 30%;
+    transform: translate(0%, -50%);
+    position: relative;
+}
+.c-root-unserline-wh {
+    border-radius: 5px;
+    background-color: #FFF;
+    z-index: 230;
+    width: 120px;
+    height: 10px;
+    margin-top: 16px;
+    transform: translate(0%, -50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    left: 30%;
+}
+.modal-content{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-body {
+    padding: 40px 30px !important;
+}
+form{
+ text-align: center;
+}
+.modal-header .close {
+    margin-top: 6px;
+}
+.image-bottom{
+ 
+    top:0px;
+    z-index: 1000;
+    position: relative;
+    display: block;
+
+}
+.modal-header {
+    padding: 13px 13px !important;
+}
+.separate_links{
+    position: relative;
+    top: 10px;
+    border: thin solid #d2ca32;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+.banner{
+  z-index: 0;
+}
+.image-below{
+    position: relative;
+    top:0px;
+}
+}
+</style>
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style>
+
+
+
+
+
+
+
+<style type="text/css">
+  
+
+@media only screen and (max-width:1440px){
+     .width-fitfy{
+    width: 100% !important;
+    margin-top: 80px;
+   
+  }
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+    text-align: center;
+    position: relative;
+    
+  }
+  .header-para{
+     text-align:left;
+     line-height: 1.5em;
+   
+    letter-spacing: 0.04em;
+    margin-bottom: 1.8em;
+    color: #000 !important;
+    width: 30%;
+  }
+  .new-cols{
+    display: contents;
+  }
+  }
+
+
+  @media only screen and (max-width:1024px){
+     .width-fitfy{
+    width: 100% !important;
+    display: block;
+
+  }
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+    text-align: center;
+    position: relative;
+    
+  }
+  .header-para{text-align: center;}
+  .new-cols{
+    display: contents;
+  }
+  }
+
+
+  @media only screen and (max-width:992px){
+     .width-fitfy{
+    width: 100% !important;
+    display: block;
+    margin-top:0px;
+
+
+  }
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:100%;
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+    text-align: center;
+    position: relative;
+    
+  }
+  .header-para{text-align: center;
+               width:100%;
+              }
+  .new-cols{
+    display: contents;
+  }
+  }
+
+  @media only screen and (max-width:768px){
+     .width-fitfy{
+    width: 100% !important;
+    display: block;
+    margin-top:0px;
+
+  }
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:100%;
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+    text-align: center;
+    position: relative;
+    
+  }
+  .header-para{
+
+               text-align: center;
+               width:100%;
+              }
+  .new-cols{
+    display: contents;
+  }
+
+  }
+
+  @media only screen and (max-width: 600px){
+     .width-fitfy{
+    width: 100% !important;
+    display: block;
+    margin-top:0px;
+
+  }
+  .head-para{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:100%;
+  }
+  .desk-margin-custom{
+    margin-top: 0px !important;
+    text-align: center;
+    position: relative;
+  }
+  .header-para{
+    text-align: center;
+    width:100%;
+  }
+  .new-cols{
+    display: contents;
+  }
+  }
+</style>
+
+</head>
+
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen"> 
+
+<!-- BEGIN: HEADER -->
+<header class="c-layout-header c-layout-header-onepage c-layout-header-default c-layout-header-dark-mobile c-header-transparent-dark" id="home" data-minimize-offset="0">
+  <!-- <div class="sqs-announcement-bar-custom-location">
+    <div class="yui3-widget sqs-widget sqs-announcement-bar sqs-announcement-bar-focused">
+      <div class="sqs-announcement-bar-content">
+        <div class="sqs-announcement-bar-text">
+          <p><a href="#" target="_blank" style="color:white">The easiest way to buy content - <b>Price List Here</b></a></p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="c-navbar">
+    <div class="container-fluid"> 
+      <!-- BEGIN: BRAND -->
+      <div class="c-navbar-wrapper clearfix">
+        <div class="c-brand c-pull-left"> 
+          <a href="#" class="c-logo"> 
+            <img src="assets/images/company_logo 2.png" alt="Logo" class="c-desktop-logo"> 
+            <img src="assets/images/company_logo 2.png" alt="Logo" class="c-desktop-logo-inverse"> 
+            <img src="assets/images/company_logo 2.png" alt="Logo" class="c-mobile-logo"> 
+          </a>
+          <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu"> 
+            <span class="c-line"></span> 
+            <span class="c-line"></span> 
+            <span class="c-line"></span> 
+          </button>
+        </div>
+
+
+
+
+        <nav class="c-mega-menu c-mega-menu-onepage c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold" data-onepage-animation-speed="300">
+          <ul class="nav navbar-nav c-theme-nav">
+
+            <li class="c-onepage-link active c-active"> <a href="#" class="c-link">Home</a> </li>
+
+            <li class="c-onepage-link show show-mobile"><a href="#" class="c-link">Solutions</a> 
+
+              <ul class="child-dropdown">
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown" hreflang="en"><span class="tele">Teleworkers' Compensation</span></a></li>
+    <li class="child-li"><a href="javascript:void(0);" class="links-dropdown" hreflang="en"><span class="tele">Telemedicine for Trauma</span></a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown" hreflang="en"><span class="tele">Tele-Spine</span></a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown"><span class="tele">Second Opinion</span></a></li>
+              </ul>
+
+              <ul class="mobile-dropdown">
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links" hreflang="en"><span class="tele">Teleworkers' <br/> Compensation</span></a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links" hreflang="en">Telemedicine for<br/> Trauma</a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links" hreflang="en">Tele-Spine</a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links">Second Opinion</a></li>
+              </ul>
+
+            </li>
+
+         
+
+            <li class="c-onepage-link show show-mobile-two"> <a href="#" class="c-link">Services</a>
+
+
+              <ul class="child-dropdown"> 
+  <li class="child-li"><a href="javascript:void(0);" class="links-dropdown" hreflang="en"><span class="tele">Skilled Nursing Facility</span></a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown"><span class="tele">Emergency Response Management</span></a></li>
+              </ul>
+
+              <ul class="mobile-dropdown-two"> 
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links" hreflang="en">Skilled Nursing Facility</a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links">Emergency Response<br/>Management</a></li>
+              </ul>
+
+
+
+
+             </li>
+
+           <li class="c-onepage-link show show-mobile-three"> <a href="#" class="c-link">Employers</a>
+             
+             <ul class="child-dropdown"> 
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown" hreflang="en"><span class="tele">Workers compensation</span></a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown"><span class="tele">Self-funded</span></a></li>
+              </ul>
+
+              <ul class="mobile-dropdown-three"> 
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links" hreflang="en">Workers compensation</a></li>
+                <li class="child-li"><a href="javascript:void(0);" class="links-dropdown mobile-links">Self-funded</a></li>
+              </ul>
+
+           </li>
+
+
+           <li class="c-onepage-link show"> <a href="#" class="c-link">Providers</a></li>
+
+           <li class="c-onepage-link show"> <a href="#" class="c-link">Attorney</a></li>
+
+
+
+           
+            <li> <a href="tel:(469) 581-0084" ref="" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg btn-new c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold"><i class="fa fa-phone" aria-hidden="true"></i>  (469) 581-0084</a> </li>
+          </ul>
+        </nav>
+        
+        <!-- END: MEGA MENU --> 
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".show-mobile").click(function(){
+    $(".mobile-dropdown").toggleClass("mobile-visible");
+    $(".mobile-links").addClass("links-dropdown-mobile");
+    });
+
+    $(".show-mobile-two").click(function(){
+    $(".mobile-dropdown-two").toggleClass("mobile-visible");
+    $(".mobile-links").addClass("links-dropdown-mobile");
+    });
+
+    $(".show-mobile-three").click(function(){
+    $(".mobile-dropdown-three").toggleClass("mobile-visible");
+    $(".mobile-links").addClass("links-dropdown-mobile");
+    });
+  });
+
+
+
+$(document).ready(function(){
+  $(".c-onepage-link").hover(function(){
+    $(this).find(".child-dropdown").addClass("shownow");
+    }, function(){
+     $(this).find(".child-dropdown").removeClass("shownow");
+  });
+});
+
+</script>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</header>
+
+
+<div class="c-layout-header-dot  c-layout-header-default c-layout-header-dark-mobile c-header-transparent-dark" id="home" data-minimize-offset="0">
+  <div class="c-navbar">
+    <div class="container-fluid"> 
+      <!-- BEGIN: BRAND -->
+      <div class="c-navbar-wrapper clearfix">
+        <nav class="c-mega-menu-onepage-dots c-theme" data-onepage-animation-speed="500">
+          <ul class="nav navbar-nav c-onepage-dots-nav" style="margin-top: -79.5px;">
+            <li class="c-onepage-link c-active"> <a href="#whyus" class="c-link tooltips hint--left" data-placement="left" aria-label="Teleworkers compensation" data-trigger="hover" data-original-title="About"> </a> </li>
+            <li class="c-onepage-link"> <a href="#services" class="c-link tooltips hint--left" data-placement="left" aria-label="Medical-care and Legal-help" data-trigger="hover" data-original-title="Services"> </a> </li>
+            <li class="c-onepage-link"> <a href="#injured" class="c-link tooltips hint--left" data-placement="left" aria-label="Injured in an accident ?" data-trigger="hover" data-original-title="Process"> </a> </li>
+            <li class="c-onepage-link"> <a href="#Workplace_Injuries" class="c-link tooltips hint--left" aria-label="Workplace Injuries" data-placement="left" data-trigger="hover" data-original-title="Works"> </a> </li>
+            <li class="c-onepage-link"> <a href="#Tele-health" class="c-link tooltips hint--left" data-placement="left" aria-label="Tele-health Solutions" data-trigger="hover" data-original-title="Pricing"> </a> </li>
+            <li class="c-onepage-link"> <a href="#clients" class="c-link tooltips hint--left" data-placement="left" aria-label="Providing a One-Stop solution to all your injury needs" data-trigger="hover" data-original-title="Reviews"> </a> </li>
+
+            <li class="c-onepage-link"> <a href="#One-Stop" class="c-link tooltips hint--left" data-placement="left" data-trigger="hover" aria-label="Providing one stop Solutions to all your problems" data-original-title="Clients"> </a> </li>
+
+            <li class="c-onepage-link"> <a href="#contact" class="c-link tooltips hint--left" data-placement="left" data-trigger="hover" aria-label="Contact" data-original-title="Contact"> </a> </li>
+ 
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- BEGIN: CONTENT/USER/LOGIN-FORM -->
+<div class="modal fade c-content-login-form" id="login-form" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content c-square">
+      <div class="modal-header c-no-border">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body ">
+        <h3 class="c-center c-font-38 c-font-yellow-4 c-font-bold"> Send us <span class="c-font-black">a message </span></h3>
+        <form>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <input type="text" class="form-control input-lg c-square" id="login-email" required="" placeholder="Enter Name">
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control input-lg c-square" id="login-password" required="" placeholder="Enter Email">
+            </div>
+             <div class="col-md-6 form-group">
+              <input type="number" class="form-control input-lg c-square" id="login-password" required="" placeholder="Enter Mobile">
+            </div>
+            <div class="col-md-12 form-group">
+              <textarea type="text" class="form-control input-lg c-square" id="login-password" placeholder="Enter Your Message"></textarea>
+            </div>
+          </div>
+          <div class=" form-group">
+            <button style="margin-left: 40%;" align="middle" type="submit" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-xlg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold">Submit</button>
+          </div>
+          <div class="clearfix"> </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END: CONTENT/USER/LOGIN-FORM --> 
+
+<!-- BEGIN: PAGE CONTAINER -->
+<div class="c-layout-page"> 
+  <!-- BEGIN: PAGE CONTENT --> 
+  <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-6 -->
+  <section class="banner">
+
+    <div class="container new-container">
+     
+      <div class="row">
+        <div class="col-md-12 col-sm-6 new-cols">
+          <div class="header-content width-fitfy">
+
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center"><span class="c-font-yellow-4 c-font-color"> Leaders in injury care</span></h3>
+
+            <!-- <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center">One stop <span class="c-font-yellow-4"> Leaders in injury care</span></h3> -->
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center" style="display:none;"> for all your injury needs</h3>
+
+             <div class="head-para">
+            <p class="header-para">
+              From auto injuries to workman’s comp, we treat it all and will help you make a hassle-free speedy recovery.
+            </p>
+             </div>
+            
+            <div class="buy-button"> <a class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold desk-margin desk-margin-custom custom-btn"> Learn more </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel">
+
+
+            <div class="item">
+             <div class="slider1">
+
+             
+<img src="assets/images/home_background-couple.jpg" alt="Flowers" style="width:100%;position: relative;display: block;object-fit: cover;object-position:initial;">
+
+
+
+  <picture>
+  <source srcset="assets/images/mob-home-tele.jpg" media="(max-width: 600px)">
+  <img src="assets/images/home_background-couple.jpg" alt="Flowers" style="width:100%;position: relative;display: block;object-fit: cover;object-position:initial;">
+</picture>
+
+
+
+
+
+
+
+        <div class="header-content ">
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center">One stop <span class="c-font-yellow-4">TELE SOLUTION </span></h3>
+
+            <h3 class="c-main-title c-font-72 c-font-50  c-font-bold c-font-uppercase c-font-white c-center"> for all your injury needs</h3>
+            
+            <div class="buy-button" style="display:block;"> <a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold desk-margin"> Learn more </a> </div>
+          </div>
+          </div>
+        </div>
+
+
+            
+
+            <div class="item">
+              <div class="slider1">
+               <img src="assets/images/home_background-couple.jpg" class="full" />
+               <div class="header-content ">
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center">Eliminate the costs of drugs, doctor visits, or unnecessary procedures <span class="c-font-yellow-4">via TELE HEALTH</span></h3>
+            <h3 class="c-main-title c-font-72 c-font-bold c-font-uppercase c-font-white c-center"></h3>
+            
+            <div class="buy-button" style="display:block;"> <a href="javascript:void(0);" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold desk-margin"> Learn more </a> </div>
+              </div>
+             </div> 
+            </div>
+
+
+
+            <div class="item">
+             <div class="slider1">
+
+
+              
+
+
+           
+<picture>
+  <source srcset="assets/images/mob-home-lady.jpg" media="(max-width: 600px)">
+  <img src="assets/images/homepage.jpg" alt="Flowers" style="width:100%;position: relative;display: block;object-fit: cover;object-position:initial;">
+</picture>
+
+
+
+
+
+
+        <div class="header-content ">
+
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center"> Reduce Your medical costs of back pain<br/><span class="c-font-yellow-4 c-font-uppercase text-big"> </span></h3>
+
+            <h3 class="c-main-title c-font-72 c-font-50 c-font-bold c-font-uppercase c-font-white c-center"> check our  <span class="c-font-yellow-4 c-font-uppercase text-big">Tele spine </span>program</h3>
+            
+            <div class="buy-button" style="display:block;"> <a href="javascript:void(0);" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold desk-margin"> Learn more </a> </div>
+          </div>
+             </div>
+            </div>
+
+
+          </div>
+        </div>
+        </div>
+      </section> 
+
+
+  
+  
+  <!-- END: LAYOUT/SLIDERS/REVO-SLIDER-6 -->
+  
+<section id="whyus" style="z-index: 1000;position: relative;"> 
+    
+    <!-- <div style="height: 100px;background: white url(assets/images/spineborders_06.png) repeat-x scroll center top;"></div> -->
+    <div id="" class=" c-content-box c-size-md  c-bg-white">
+      <div class="container">
+        <div class="col-md-6">
+          <div class="c-yellow-circle"> </div>
+          <div class="c-media"> <img src="assets/images/about_01.png" class="img-responsive" style="z-index: 1000; position: relative;"> </div>
+        </div>
+        <div class="col-md-6">
+          <div class="c-content-title-3 c-feature-14-title ">
+            <h3 class="c-left c-font-uppercase  c-font-yellow-4 c-font-bold">TELE-WORKERS' COMPENSATION</h3>
+            <div class="c-root-unserline">
+              <div class="c-underline"></div>
+            </div>
+          </div>
+          <p class="c-left"> </p>
+          <p>
+            The current employer Workers’ Compensation model is costly
+            and time consuming for the majority of on-the-job, non-lifethreatening injuries. Not only is it not saving claims dollars
+          </p>
+           
+          <p>but raising premiums due to receiving assessment and first
+           aid at inappropriate setting(s). There is a way for employer
+           groups to take some control back of their claims costs and
+          reduce their future premiums. </p>
+          <p>Our goal at Injury Live is to ensure that injured workers receive the
+             necessary, timely, and appropriate care that otherwise might not be
+             available in their communities.
+          </p>
+          
+        </div>
+        
+       
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" ref="" class="c-btn-border-opacity-04 yop c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold"><i class="fa fa-phone" aria-hidden="true"></i> Register your business</a>
+       
+      </div>
+      
+    </div>
+    <!-- <div style="height: 100px;background: white url(assets/images/yellow-spineborders_06-reverse.png) repeat-x scroll center top;"></div> -->
+  </section> 
+
+
+  <style type="text/css">
+    .center-services-img{
+      width: 36rem;
+      margin-top: 8rem;
+    }
+    .res-only{
+      display: none;
+    }
+    @media (max-width: 600px){
+      .center-services-img{
+        width: 36rem;
+        margin-top: 0rem;
+      }
+      .res-only{
+        display: block;
+      }
+    }
+  </style>                      
+  <section id="services" style="
+    z-index: 1000;
+    position: relative;">
+    <!-- <div style="background: #fffffffa url(assets/images/sborders_01.png) repeat-x scroll center top;"></div> -->
+    <div class="c-content-box c-size-md " style="background-color: #ffd81b;">
+      <div class="container"> 
+        
+        
+        <div class="row">
+          <div class="col-md-4 feature-content"> 
+            <!-- 
+            <div class="feature-single feature-right ">
+              <h3>Website Content</h3>
+              <p>banner ads, landing pages, calls to action, metadata, press releases</p>
+            </div>
+
+            <div class="feature-single feature-right ">
+              <h3>Blogs &amp; SEO Articles</h3>
+              <p>blog series, listicles, research articles, infographics, news</p>
+            </div>
+
+            <div class="feature-single feature-right">
+              <h3>Product Descriptions</h3>
+              <p>e-commerce product descriptions, packaging content, label content</p>
+            </div>
+             -->
+             <div class="feature-single text-center ">
+              <h3>Medical Care</h3>
+              <p class="text-center">If you are seriously injured in a car accident or at work, our emergency services will probably come to the scene and take you to the closest hospital, where you will receive all the medical care you need. But what about seemingly minor accidents, where there is no immediate pain or noticeable discomfort? </p>
+              <p class="text-center">Whatever may be the case, after an accident, you need to contact a doctor that specializes in injury care. Our team of injury medical doctors and chiropractors can help you!.</p>
+            </div>  
+            
+          </div>
+          <div class="col-md-4">
+            <div class="feature-image " style="padding: 0px;padding-bottom: 20px;"> <img src="assets/images/pricing_01 3.png" alt="" class="center-services-img"> </div>
+          </div>
+          <div class="col-md-4 feature-content"> 
+
+           <!--  <div class="feature-single feature-left ">
+              <h3>Brochure Content</h3>
+              <p>flyer content, profile content, newsletters, emailer content</p>
+            </div>
+
+            <div class="feature-single feature-left ">
+              <h3>Case Study Content</h3>
+              <p>how-to content, eBooks, whitepapers, executive briefs</p>
+            </div> -->
+
+            <div class="feature-single text-center ">
+              <h3>Legal Help</h3>
+              <p class="text-center">Whether you were in a minor fender bender or a major auto collision, you soon realize you are obligated to manage numerous details. You must: receive proper medical treatment, pay for medical expenses, file insurance claims with your company as well as the other party’s insurance company, deal with insurance adjusters from more than one company, and properly secure a rental car. </p>
+
+              <p class="text-center">Contact us to discuss your accident case with our attorneys before you talk with a claims adjuster from the insurance company of the person at fault. 
+              </p>
+            <!-- Feature single end --> 
+            
+          </div>
+        </div>
+
+
+      </div>
+      <div class="center-button"><a href="tel:(469) 581-0084" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold btn-white"><i class="fa fa-phone" aria-hidden="true"></i>  (469) 581-0084</a> </div>
+    </div>
+  </section>
+  <section id="process" style="
+    z-index: 1000;
+    position: relative;">
+
+    <!-- <div style="height: 100px;background: #ffffff url(assets/images/yellow-spineborders_06.png) repeat-x scroll center top;"></div> -->
+    <!-- BEGIN: CONTENT/STEPS/STEPS-2 -->
+    <div class="c-content-box c-size-md" id="injured" style="background-color: #fff;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="c-content-title-1 c-margin-b-60">
+              <h3 class="c-center c-font-uppercase c-font-yellow-4 c-font-bold"> Injured in an accident ? </h3>
+              <div class="c-root-unserline-left">
+                <div class="c-underline"></div>
+              </div>
+              <h4 class="sub-heading"> Here is what to do... </h4>
+            </div>
+          </div>
+        </div>
+        <div class="c-content-counter-1 c-opt-1">
+          <div class="row ">
+            <div class="col-md-3">
+              <div class="er">
+                <div class="c-counter c-font-bold ">01</div>
+              </div>
+              <p class="c-content sm-text-center"> Call Us at <a hreflang="en" href="tel:(469) 581-0084" class="Callback-button"> (469) 581-0084 </a></p>
+              
+            </div>
+            <div class="col-md-3">
+              <div class="er">
+                <div class="c-counter c-font-bold">02</div>
+              </div>
+              <p class="c-content sm-text-center">One of our representatives will connect you with our medical team and/or legal attorney</p>
+            </div>
+            <div class="col-md-3">
+              <div class="er">
+                <div class="c-counter c-font-bold">03</div>
+              </div>
+              <p class="c-content sm-text-center">24/7 immediate triage and treatment</p>
+            </div>
+            <div class="col-md-3">
+              <div class="er">
+                <div class="c-counter c-font-bold">04</div>
+              </div>
+              <p class="c-content sm-text-center">Care Coordinator takes care of insurance formalities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END: CONTENT/STEPS/STEPS-2 --> 
+    <!-- <div style="height: 100px;background: #ffffff url(assets/images/spineborders_06-reverse.png) repeat-x scroll center top;"></div> -->
+  </section>
+  <!-- <section id="works" style="
+    z-index: 1000;
+    position: relative;
+">
+    <div style="height: 100px;background: white url(assets/images/sborders_05.png) repeat-x scroll center top;"></div>
+    <div class="c-content-box c-size-md " style="background: #111938">
+      <div class="container"> 
+        
+        <div class="c-content-client-logos-slider-1" data-slider="owl"> 
+          
+          <div class="c-content-title-1">
+            <h3 class="c-center c-font-uppercase c-font-yellow-4 c-font-bold">Works</h3>
+            <div class="c-root-unserline-left">
+              <div class="c-underline-white"></div>
+            </div>
+            <h4 class="sub-heading1">1000 + businesses rely on us to produce their branded content</h4>
+          </div>
+          <br>
+          
+          
+          <div class="row">
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/1.jpg" alt=""> </a></div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/2.jpg" alt=""></a> </div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/3.jpg" alt=""></a> </div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/4.jpg" alt=""></a> </div>
+          </div>
+          <div class="clearfix c-padding-20"></div>
+          <div class="row">
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/5.jpg" alt=""></a> </div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/6.jpg" alt=""> </a></div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/7.jpg" alt=""> </a></div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/8.jpg" alt=""> </a></div>
+          </div>
+<div class="clearfix c-padding-20"></div>
+          <div class="row">
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/9.jpg" alt=""></a> </div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/10.jpg" alt=""> </a></div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/11.jpg" alt=""> </a></div>
+            <div class="col-md-3"> <a href="#" target="_blank"><img class="b-radi" src="assets/images/12.jpg" alt=""> </a></div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+<section id="clients" style="
+    z-index: 1000;
+    position: relative; background-color: #111938 !important;">
+    <!-- <div class="tis" style="height: 100px;background: #111938 url(assets/images/spineborders_06.png) repeat-x scroll center top;"> </div> -->
+
+    <div class="c-content-box c-size-md c-bg-white bg-bl" id="Workplace_Injuries" style="background-color: #111938 !important;">
+      <div class="container"> 
+        <!-- Begin: Testimonals 1 component -->
+        <div class="c-content-client-logos-slider-1  c-bordered" data-slider="owl"> 
+          <!-- Begin: Title 1 component -->
+          <div class="c-content-title-1">
+            <h3 class="c-center c-font-uppercase c-font-yellow-4 c-font-bold">Get Ahead of Workplace Injuries</h3>
+            <div class="c-root-unserline-left">
+              <div class="c-underline"></div>
+            </div>
+            <h4 class="sub-heading text-white" style="color:#fff;">  Ready to Start Saving? </h4>
+          </div>
+
+
+         
+<!-- <h4 class="sub-heading">We’ve been fortunate to work with some of the world’s most interesting brands</h4> -->
+          <!-- End--> 
+          
+          <!-- Begin: Owlcarousel -->
+
+
+         <div class="feature-single text-center text-center width-center">
+             
+              <p class="text-center para text-white" style="color: #fff; font-size:18px;">Saving money, saving aggravation, and saving lost hours due to workplace mishaps, there’s no better time than right now to talk with Injury Live about easing your workers’ comp pains with our workers’ compensation nurse triage and reporting. You might be surprised by what you find. </p>
+            
+          
+          <p class="text-left text-white" style="color:#fff;font-size:18px;">
+                We ease the pain of…
+          </p>
+          </div>
+
+          <div class="text-left-left col-md">
+              
+              <ul class="text-white" style="color:#fff;">
+                <li class="yl">Injury process, injury risk</li>
+                <li class="yl">Insufficient reporting</li>
+                <li class="yl">Excessive ER usage</li>
+                <li class="yl">High claims and costs</li>
+
+              </ul>
+          </div>
+
+          <p class="text-center para para-bold" style="color:#fff;">I’m interested…</p>
+          
+        <div class="center-button"><a href="javascript:void(0);" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold btn-white btn-yellow"><i class="fa fa-envelope" aria-hidden="true"></i>  TELL ME MORE!</a> </div>
+
+        <!-- End--> 
+        </div>
+        <!-- End--> 
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section id="Tele-health" style="
+    z-index: 1000;
+    position: relative;"> 
+    
+    <!-- <div style="height: 100px;background: white url(assets/images/spineborders_06.png) repeat-x scroll center top;"></div> -->
+    <div id="feature-14-1" class="c-content-box c-size-md c-bg-white">
+      <div class="container">
+        <div class="col-md-6">
+          <div class="c-yellow-circle"> </div>
+          <div class="c-media"> <img src="assets/images/tele-phy.png" class="img-responsive img-bottom image-below" style="z-index: 1000; position: relative;"> </div>
+        </div>
+        <div class="col-md-6">
+          <div class="c-content-title-3 c-feature-14-title ">
+            <h3 class="c-left c-font-uppercase c-font-yellow-4 c-font-bold">Tele-health Solutions for Fully-Funded & Self-Funded Employers</h3>
+            <div class="c-root-unserline">
+              <div class="c-underline"></div>
+            </div>
+          </div>
+          <p class="c-left"> </p>
+          <p>We empower clients with advanced telehealth technology and support services that increase access to care, improve the quality and effectiveness of medical interactions, reduce professional liability claims and related costs and increase revenue.
+      </p>
+
+
+          <p>Some accidents are big, but usually they’re not. Or they don’t have to be. Unless of course, you forget to call us first. Then they might become very big. Why risk it ?</p>
+
+
+          
+
+
+          
+          <p>&nbsp;</p>
+          <p><a href="" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-lg c-btn-border-1x c-btn-dark c-btn-circle  c-btn-sbold"><i class="fa fa-globe"></i>Learn more </a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="testimonials" style="
+    z-index: 1000;
+    position: relative;">
+    <!-- <div style="height: 100px;background: white url(assets/images/spineborders_06-reverse.png) repeat-x scroll center top;"></div> -->
+
+    <!-- <div class="c-content-box c-size-md " style="background: #111938 ">
+      <div class="container"> 
+        
+        <div class="c-content-client-logos-slider-1" data-slider="owl"> 
+          
+          <div class="c-content-title-1">
+            <h3 class="c-center c-font-uppercase c-font-yellow-4 c-font-bold">Testimonials</h3>
+            <div class="c-root-unserline-left">
+              <div class="c-underline-white"></div>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+              <div class="carousel slide" data-ride="carousel" id="quote-carousel"> 
+                
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0" class=""></li>
+                  <li data-target="#quote-carousel" data-slide-to="1" class=""></li>
+                  <li data-target="#quote-carousel" data-slide-to="2" class="active"></li>
+                </ol>
+                
+                
+                <div class="carousel-inner"> 
+                  
+                  
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-sm-3 text-center"> <img class="img-circle" src="assets/images/testimonials_photo_03.png" style="width: 150px;height:150px;">
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="mrg-30">"InjuryLIVE goes above and beyond. They really cared about my well being, and the whole experience was humanizing. The staff is always friendly, helpful, proactive and communicative."<br><br><span class="testimonial-auther"> - Josh D. </span></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-sm-3 text-center"> <img class="img-circle" src="assets/images/testimonials_photo_02.png" style="width: 150px;height:150px;"> </div>
+                      <div class="col-sm-9">
+                        <p class="mrg-30">"InjuryLIVE goes above and beyond to help their patients. They are very quick and professional. I always feel very satisfied with their customer service."<br><br><span class="testimonial-auther"> - Brittany S. </span></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="item active">
+                    <div class="row">
+                      <div class="col-sm-3 text-center"> <img class="img-circle" src="assets/images/testimonials_photo_01.png" style="width: 150px;height:150px;"> </div>
+                      <div class="col-sm-9">
+                        <p class="mrg-30">"InjuryLIVE is such a wonderful pharmacy. These ladies go above and beyond every day to be as helpful as they can be. Excellent customer service!"<br><br><span class="testimonial-auther"> - Kathryn G. </span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+         
+        </div>
+
+
+       
+      </div>
+    </div> -->
+
+
+
+  </section>
+  <section id="One-Stop" style="
+    z-index: 1000;
+    position: relative;">
+   <!--  <div style="height: 100px;background: #ffffff url(assets/images/spineborders_06.png) repeat-x scroll center top;"> </div> -->
+
+    <div class="c-content-box c-size-md c-bg-white" style="background-color: #0f1834 !important;">
+      <div class="container"> 
+        <!-- Begin: Testimonals 1 component -->
+        <div class="c-content-client-logos-slider-1  c-bordered" data-slider="owl"> 
+          <!-- Begin: Title 1 component -->
+          <div class="c-content-title-1">
+            <h3 class="c-center c-font-uppercase c-font-yellow-4 c-font-bold">Providing a One-Stop solution to all your injury needs</h3>
+            <div class="c-root-unserline-left">
+              <div class="c-underline"></div>
+            </div>
+
+            
+
+
+
+          </div>
+<!-- <h4 class="sub-heading">We’ve been fortunate to work with some of the world’s most interesting brands</h4> -->
+          <!-- End--> 
+          
+          <!-- Begin: Owlcarousel -->
+          
+          <div class="c-logos pd">
+            <div class="row">
+
+              
+         <h3 class="c-center c-font-uppercase c-font-white c-font-bold" ><span class="c-font-yellow-4 to" style="color:#ffffff !important;">Call us now at <br class="res-only"><a href="tel:(469) 581-0084" class="separate_links" style="color: #fff;"> (469) 581-0084 </a></span><br>
+         </h3>
+
+
+
+            <!-- <div class="col-md-3 col-xs-6 c-logo c-logo-1"> <a href="#"><img class="b-radi-img" src="assets/images/client_logo_01_1.png" alt=""></a> </div>
+            <div class="col-md-3 col-xs-6 c-logo c-logo-2"> <a href="#"><img class="b-radi-img" src="assets/images/client_logo_03_1.png" alt=""></a> </div>
+            <div class="col-md-3 col-xs-6 c-logo c-logo-3"> <a href="#"><img class="b-radi-img" src="assets/images/client_logo_02_1.png" alt=""></a> </div>
+            <div class="col-md-3 col-xs-6 c-logo c-logo-4"> <a href="#"><img class="b-radi-img" src="assets/images/client_logo_01_2.png" alt=""></a> </div> -->
+
+            </div>
+          </div>
+         
+        </div>
+        <!-- End--> 
+      </div>
+    </div>
+  </section>
+  <section id="clients" style="
+    z-index: 1000;
+    position: relative;">
+
+    <!-- <div style="height: 100px;background: white url(assets/images/spineborders_06-reverse.png) repeat-x scroll center top;"></div> -->
+    
+    <!-- <div class="c-content-box c-size-md " style="background: #101834 ">
+
+      <div class="container">
+
+        <div class="c-content-blog-post-card-1-slider" data-slider="owl">
+          <div class="c-content-title-1">
+            <h3 class="c-center c-font-uppercase c-font-white c-font-bold" style="font-size: 28px;">Providing a One-Stop solution to all your injury needs </h3><br>
+            <h3 class="c-center c-font-uppercase c-font-white c-font-bold" ><span class="c-font-yellow-4">Call us now at <br class="res-only"> (469) 581-0084</span><br></h3>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+    
+  </section>
+  <section id="contact" style="
+    z-index: 1000;
+    position: relative;"> 
+    <!-- BEGIN: CONTENT/PRODUCTS/PRODUCT-1 -->
+    <!-- <div style="height: 100px; background: #ffd81c url(assets/images/spineborders_06.png) repeat-x scroll center top;"></div> -->
+
+    <div class="c-content-box c-size-md " style="padding-bottom:0px ; background-color: #ffd81b;">
+      <div class="container">
+        <div class="col-md-6 col-md-offset-1">
+          <div class="c-content-title-3 c-feature-14-title ">
+            <h3 style="color:#101834" class="c-left c-font-uppercase c-font-bold">Contact</h3>
+            <div class="c-root-unserline-wh">
+              <div class="c-underline-bottom"></div>
+            </div>
+          </div>
+<br>
+          <h4>Lancaster Location:</h4>
+          <p class="c-font-black m-0">2700 W. Pleasant Run Rd.,Lancaster, TX 75146</p>
+          <br>
+          <h4>MLK Location:</h4>
+          <p class="c-font-black m-0">2949 Martin Luther King, Jr. Blvd.,#3 Dallas, TX 75215</p>
+          <br>
+          <h4>Oak Lawn Location:</h4>
+          <p class="c-font-black m-0">2603 Oaklawn Avenue, Suite 101, Dallas, TX 75219</p>
+          <br>
+          <h4>Contact Us:</h4>
+          <p class="c-font-black m-0">info@texasspecialtyclinic.com</p>
+          <p class="c-font-black m-0">Phone : (469) 581-0084</p>
+          <p class="c-font-black m-0">Fax : (888) 900-4530</p>
+          <a href="javascript:void(0);" data-toggle="modal" data-target="#request" style="margin-top: 56px;margin-bottom: 56px;" class="btn btn-lg  c-btn-dark-2 c-btn-circle  c-btn-sbold"><i class="icon-phone"></i> Request Callback </a> </div>
+        <div class="col-md-5">
+         <!-- <div class="c-yellow-circle"> </div>--> 
+          <div class="c-media"> <img src="assets/images/contacts_01.png" class="img-responsive image-bottom" style="z-index: 1000; position: relative;"> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer" style="
+    z-index: 1000;
+    position: relative;">
+    <footer class="global-footer">
+      <div class="grid-container -layout-wide">
+        <div class="global-footer__container res-text-center">
+          <nav class="global-footer-info-links">
+            <ul class="global-footer-info-links__list">
+              <li class="global-footer-info-links__list-item">
+                <ul class="global-footer-sublist">
+                  <li class="global-footer-sublist__item-title"> T&amp;C </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Terms</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Privacy Policy</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Disclaimer</a> </li>
+                 
+                </ul>
+              </li>
+              <li class="global-footer-info-links__list-item">
+                <ul class="global-footer-sublist">
+                  <li class="global-footer-sublist__item-title">  Content</li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Solution</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Services</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Employers</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Providers</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Attorney</a> </li>
+                 
+                </ul>
+              </li>
+              <li class="global-footer-info-links__list-item">
+                <ul class="global-footer-sublist">
+                  <li class="global-footer-sublist__item-title"> <span class="is-hidden-phone">Help</span></li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">FAQS</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Resources</a> </li>
+                  <li class="global-footer-sublist__item h-p0"> <a class="global-footer__text-link" href="javascript:void(0);">Complaints &amp; Escalations</a> </li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="global-footer-stats"> <img class="global-footer-stats__logo res-mar-center" alt="" src="assets/images/company_logo 2.png">
+            <ul class="global-footer-stats__list res-mar-center">
+              <li class="global-footer-stats__list-item h-p0 text-center"> <span class="global-footer-stats__number">302,051</span> Injured assisted </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="global-footer__separator">
+        <div class="global-footer__container">
+          <div class="global-footer-company-links">
+            <ul class="global-footer-company-links__list">
+              <li class="global-footer-company-links__list-item"> <a class="global-footer__text-link -opacity-full" href="javascript:void(0);">About us</a> </li>
+              <li class="global-footer-company-links__list-item"> <a class="global-footer__text-link -opacity-full" href="javascript:void(0);">Careers</a> </li>
+             
+              <li class="global-footer-company-links__list-item"> <a class="global-footer__text-link -opacity-full" href="javascript:void(0);">Sitemap</a> </li>
+            </ul>
+            <small class="global-footer-company-links__copyright"> © 2020 InjuryLIVE. All rights reserved. </small> </div>
+          <div class="global-footer-social">
+             <ul class="res-mar-center">
+              <li class="global-footer-social__list-item"> <a class="global-footer__icon-link" rel="nofollow" href="javascript:void(0);"> <img class="global-footer-social__icon" alt="Twitter" title="Twitter" src="assets/images/twitter.svg"> </a> </li>
+              <li class="global-footer-social__list-item"> <a class="global-footer__icon-link" rel="nofollow" href="javascript:void(0);"> <img class="global-footer-social__icon" alt="Facebook" title="Facebook" src="assets/images/facebook.svg"> </a> </li>
+              <li class="global-footer-social__list-item"> <a class="global-footer__icon-link" rel="nofollow" href="javascript:void(0);"> <img class="global-footer-social__icon" alt="YouTube" title="YouTube" src="assets/images/youtube.svg"> </a> </li>
+              <li class="global-footer-social__list-item"> <a class="global-footer__icon-link" rel="nofollow" href="javascript:void(0);"> <img class="global-footer-social__icon" alt="Instagram" title="Instagram" src="assets/images/instagram.svg"> </a> </li>
+              <li class="global-footer-social__list-item"> <a class="global-footer__icon-link" rel="nofollow" href="javascript:void(0);"> <img class="global-footer-social__icon" alt="Pinterest" title="Pinterest" src="assets/images/pinterest.svg"> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- END: PAGE CONTENT --> 
+  
+</div>
+
+<!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+<div class="c-layout-go2top" style="display: none;"> <i class="fa fa-arrow-up"></i> </div>
+<!-- END: LAYOUT/FOOTERS/GO2TOP --> 
+
+<script src="assets/js/jquery.min.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script> 
+<script src="assets/js/reveal-animate.js" type="text/javascript"></script> 
+<script src="assets/js/components.js" type="text/javascript"></script> 
+<script src="assets/js/app.js" type="text/javascript"></script> 
+<script src="assets/js/wow.js" type="text/javascript"></script>  
+<script src="assets/js/jquery.cubeportfolio.min.js" type="text/javascript"></script> 
+<script src="assets/js/jquery.counterup.min.js" type="text/javascript"></script> 
+<script src="assets/js/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script>
+	$(document).ready(function() {    
+		App.init(); // init core    
+	});
+	</script> 
+<!-- END: THEME SCRIPTS --> 
+
+<!-- BEGIN: PAGE SCRIPTS --> 
+ 
+<!-- END: THEME SCRIPTS --> 
+
+<!-- BEGIN: PAGE SCRIPTS --> 
+
+
+
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false,
+            autoplay:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false,
+            autoplay:false
+        }
+    }
+})
+</script>
+
+
+<script>
+			$(document).ready(function() {
+    var api;
+    var slider = $('.c-layout-revo-slider .tp-banner');
+    var cont = $('.c-layout-revo-slider .tp-banner-container');    
+    var onepageMode = $('.c-mega-menu-onepage-dots').size() > 0 ? true : false;
+
+    if (onepageMode) {
+        api = slider.show().revolution({
+            sliderType:"standard",
+            sliderLayout:"fullscreen",
+            responsiveLevels:[2048,1024,778,480],
+            gridwidth: [1170, 1024, 778, 480],
+            gridheight: [868, 768, 960, 720],
+            delay: 15000,    
+            startwidth:1170,
+            startheight: 1000,
+
+            navigation: {
+                keyboardNavigation:"off",
+                keyboard_direction: "horizontal",
+                mouseScrollNavigation:"off",
+                onHoverStop:"off",
+                bullets: {
+                    style:"round",
+                    enable:true,
+                    hide_onmobile:false,
+                    hide_onleave:true,
+                    hide_delay:200,
+                    hide_delay_mobile:1200,
+                    hide_under:0,
+                    hide_over:9999,
+                    direction:"horizontal",
+                    h_align:"center",
+                    v_align:"bottom",
+                    space:5,
+                    v_offset:60,
+
+                },
+                touch: {
+                    touchenabled: 'off',
+                }   
+            },
+
+            spinner: "spinner2",
+
+            shadow: 0,
+            fullWidth: "off",
+            forceFullWidth: "off",
+
+            hideThumbsOnMobile: "on",
+            hideNavDelayOnMobile: 1500,
+            hideBulletsOnMobile: "on",
+            hideArrowsOnMobile: "on",
+            hideThumbsUnderResolution: 0
+        });
+    } else {
+        api = slider.show().revolution({
+            sliderType:"standard",
+            sliderLayout:"fullscreen",
+            responsiveLevels:[2048,1024,778,480],
+            gridwidth: [1170, 1024, 778, 480],
+            gridheight: [868, 768, 960, 720],
+            delay: 15000,    
+            startwidth:1170,
+            startheight: App.getViewPort().height,
+
+            navigation: {
+                keyboardNavigation:"off",
+                keyboard_direction: "horizontal",
+                mouseScrollNavigation:"off",
+                onHoverStop:"on",
+                arrows: {
+                    style:"circle",
+                    enable:true,
+                    hide_onmobile:false,
+                    hide_onleave:false,
+                    tmp:'',
+                    left: {
+                        h_align:"left",
+                        v_align:"center",
+                        h_offset:30,
+                        v_offset:0
+                    },
+                    right: {
+                        h_align:"right",
+                        v_align:"center",
+                        h_offset:30,
+                        v_offset:0
+                    }
+                },
+                touch: {
+                    touchenabled: 'on',
+                    swipe_threshold: 75,
+                    swipe_min_touches: 1,
+                    swipe_direction: 'horizontal',
+                    drag_block_vertical: true
+                }      
+            },
+
+            spinner: "spinner2",
+
+            shadow: 0,
+            fullWidth: "off",
+            forceFullWidth: "off",
+
+            hideThumbsOnMobile: "on",
+            hideNavDelayOnMobile: 1500,
+            hideBulletsOnMobile: "on",
+            hideArrowsOnMobile: "on",
+            hideThumbsUnderResolution: 0
+        });
+    }
+}); //ready	
+			</script>
+
+
+<!-- prabhat pandit modal form popup start !-->
+
+
+
+<!-- <div class="btn-group">
+  <button type="button" class="open-modal" data-open="modal1">
+    Launch first modal
+  </button>
+  <button type="button" class="open-modal" data-open="modal2">
+    Launch second modal
+  </button>
+</div> -->
+
+<!-- <div class="modal" id="modal1">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <div class="form-header">
+      <p class="form-para"><strong>REQUEST A CALLBACK</strong></p>
+    </div>
+
+
+      <form id="enquiry_fprm" method="POST" name="enquiry_fprm" class="form">
+
+
+      <div class="form-group">
+      <input type="text" placeholder="First Name.." name="f_name" value="test" class="form-control" id="first">
+      </div>
+
+      
+      <div class="form-group">
+      <input type="text" placeholder="Last Name.." name="l_name" class="form-control" value="test" id="last">
+      </div>
+
+     <div class="form-group">
+     <input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" value="test@gmail.com" placeholder="Enter Your E-mail address" id="email">
+     </div>
+
+     <div class="form-group">
+     <input type="text" class="form-control" name="number" maxlength="10" value="9863763243" placeholder="Enter Your Number" id="number">
+     </div>
+
+     <div class="form-group">
+     <textarea cols="10" id="text_area" rows="10" name="Messages" placeholder="Write Your Messages.." class="form-control">testing</textarea>
+     </div>
+
+
+      <div class="form-group">
+      <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+     
+  
+  
+  
+  
+</form>
+
+
+
+
+</section>
+</div>
+</div> -->
+
+
+<!-- prabhat pandit modal form popup start !-->
+
+
+
+
+<!-- <script type="text/javascript">
+  
+const openEls = document.querySelectorAll("[data-open]");
+const closeEls = document.querySelectorAll("[data-close]");
+const isVisible = "is-visible";
+
+for (const el of openEls) {
+  el.addEventListener("click", function() {
+    const modalId = this.dataset.open;
+    document.getElementById(modalId).classList.add(isVisible);
+  });
+}
+
+for (const el of closeEls) {
+  el.addEventListener("click", function() {
+    this.parentElement.parentElement.parentElement.classList.remove(isVisible);
+  });
+}
+
+document.addEventListener("click", e => {
+  if (e.target == document.querySelector(".modal.is-visible")) {
+    document.querySelector(".modal.is-visible").classList.remove(isVisible);
+  }
+});
+
+document.addEventListener("keyup", e => {
+  // if we press the ESC
+  if (e.key == "Escape" && document.querySelector(".modal.is-visible")) {
+    document.querySelector(".modal.is-visible").classList.remove(isVisible);
+  }
+});
+
+</script>
+ -->
+
+<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+<script src="assets/slider/jquery.min.js"></script>
+<script src="assets/slider/owl.carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+
+  
+
+  <!-- Modal starts-->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="header-white"><span class="glyphicon glyphicon-phone header-white"></span> REGISTER</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form id="enquiry_fprm" name="form1" role="form">
+
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="usrname" name="f_name" pattern="[a-z]" required="required" placeholder="First Name...">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="last" name="l_name" pattern="[a-z]" required="required" placeholder="Last Name...">
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required" name="email" placeholder="Enter Your E-mail...">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" pattern="[7-9]{1}[0-9]{9}" id="number" name="number" required="required" maxlength="10" placeholder="Enter Your Number...">
+            </div>
+
+             <div class="form-group">
+          <textarea type="text" id="message" name="message" placeholder="Enter Your Number..." rows="2" class="form-control md-textarea"></textarea>
+                           
+            </div>
+           
+              <button type="submit" id="submit-button" class="btn btn-success bottom-btn"><span class="glyphicon glyphicon-off"></span> Submit Now</button>
+          </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal ends--> 
+
+
+
+
+  <!-- Modal starts-->
+  <div class="modal fade" id="request" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="header-white"><span class="glyphicon glyphicon-phone header-white"></span> REQUEST A CALLBACK</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form id="signup" name="form2" role="form">
+
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="usrname_new" name="name" pattern="[a-zA-Z]{1,}" required="required" placeholder="Full Name..." />
+            </div>
+
+            <div class="form-group">
+              <input type="number" class="form-control" id="mobile" name="mobile" required="required" placeholder="Mobile Number" maxlength="10" />
+            </div>
+
+              <button type="submit" id="submit-button-two" class="btn btn-success bottom-btn"><span class="glyphicon glyphicon-off"></span> Submit Now</button>
+          </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal ends--> 
+
+
+<script>
+$(document).ready(function() { 
+    $('#submit-button').click(function(event) {
+      event.preventDefault();
+      var formdata = $('#enquiry_fprm').serialize();
+
+if ($('#usrname').val() != "" && $('#last').val() != "" && $('#email').val() != "" && $('#number').val() != "" && $('#message').val() != "" ) {
+            
+             $.ajax({
+                              url:'requestaapp2-backup.php',
+                              type:'POST',
+                              data:formdata,
+                              success:function(result){
+                              Swal.fire(
+                                         'Your enquiry has been sent successfully ?',
+                                         'we will get back to you soon ?'
+                                        )
+
+                              $("#enquiry_fprm").trigger('reset');
+                              $(".close").click();  
+                              }
+  
+
+                    });
+
+         
+    }
+             else{
+
+
+              Swal.fire({
+                          icon: 'error',
+                          title: 'Oops...',
+                          text: 'All fields are mandatory !',
+                          footer: '<a href>Why do I have this issue?</a>'
+                        })
+                    return false;
+                  }
+    });
+  return false;
+
+});
+
+
+
+
+$("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+
+
+var mobile = document.getElementById("mobile").value;
+var button = document.getElementById("submit-button-two");
+button.addEventListener("submit",function(){
+
+if(mobile.length < 9 || mobile.length > 10){
+  alert("Please check your mobile number first");
+  return false;
+}
+});
+
+</script>
+
+
+
+
+<script>
+$(document).ready(function() { 
+    $('#submit-button-two').click(function(event) {
+      event.preventDefault();
+      var formdata = $('#signup').serialize();
+
+if ($('#usrname_new').val() != "" && $('#mobile').val() != "" ) {
+            
+             $.ajax({
+                              url:'requestName.php',
+                              type:'POST',
+                              data:formdata,
+                              success:function(result){
+                              //alert("Your enquiry has been sent successfully");
+                              Swal.fire(
+                                         'Your enquiry has been sent successfully ?',
+                                         'we will get back to you soon ?'
+                                        )
+
+                              $("#signup").trigger('reset');
+                              $(".close").click();  
+                              }
+  
+
+                    });
+
+         
+    }
+             else{
+
+
+              Swal.fire({
+                          icon: 'error',
+                          title: 'Oops...',
+                          text: 'All fields are mandatory !',
+                          footer: '<a href>Why do I have this issue?</a>'
+                        })
+                    return false;
+                  }
+    });
+  return false;
+
+});
+</script>
+
+<style type="text/css">
+  .zsiq_unrdcnt{
+    display: block !important;
+  }
+  .sqico-call{
+     display: block !important;
+  }
+</style>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"dff61a8418f84d56287ce8dab67b9f39a67977fb7395780d46b6acaa5b3dc65a", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+
+
+<!-- <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'e6312c83-0591-4201-8b7e-b46a59cfc27c', f: true }); done = true; } }; })();
+</script> -->
+
+</body>
+</html>
